@@ -5,7 +5,7 @@
     width: 200px;
 }
 .container h1{
-    font color: white;
+    font-color: white;
 }
 .container button{
   
@@ -39,7 +39,10 @@
    
 }
 
-
+.newpost{
+    background-color: fff;
+    
+}
 
 h3{
     color: #404040;

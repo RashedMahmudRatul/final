@@ -1,6 +1,6 @@
 <html>
     <head>
-        <title>Exam</title>
+        <title>Library</title>
         <link rel="stylesheet" href="style.css">
     </head>
     
@@ -10,21 +10,28 @@
         </div>
         <div class="view">
         
-        <div class="view1">Form view</div>
-        <div class="view2">List view</div>
-        <div class="view3">Single view</br></div>
-        </div>
-        
+        <div class="view1">Form view
         <div class="container">
             
-            <h3></br>New book</h3>
+            <h3>New book</h3>
             <input type="text" id="title" placeholder="Title"><br/><br/>
     <input type="text" id="title" placeholder="Author"><br/><br/>
-    <input type="text" id="title" placeholder="Rating 1 to 5" min= “17”> <br/><br/>
+    <input type="text" id="title" placeholder="Rating 1 to 5" min= “5”> <br/><br/>
 
     <button id="submit">Add</button>
             
         </div>
+        
+        </div>
+        <div class="view2">List view</div>
+        <div class="view3">Single view</br></div>
+        </div>
+        
+        
+        
+      
+        
+        
         
         <script
       src="https://code.jquery.com/jquery-3.3.1.min.js"
@@ -33,8 +40,10 @@
     <script>
       var article = {title:"", content:""};
       $('#submit').click(function(event){
-        article.title = $('#title').val();
-        article.content = $('#content').val();
+        article.title = $('#Title').val();
+        article.content = $('#Author').val();
+         article.content = $('#Rating 1 to 5').val();
+        
         $.ajax({
           method:"POST",
           url:"/article/create",
