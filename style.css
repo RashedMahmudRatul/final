@@ -1,3 +1,59 @@
-.box{
-    background-color: blue;
+.container{
+    background-color:#AEFADE;
+    padding-right: 20px;
+    padding-left: 20px;
+    width: 200px;
+}
+.container h1{
+    font color: white;
+}
+.container button{
+  
+    text-align: center;
+}
+*{
+    background-color: fff;
+}
+
+.post{
+    color:#ff8c1a;
+    text-align: center;
+}
+
+.view1{
+    color: #009999;
+    float:left;
+    margin:10px 100px 10px 220px;
+   
+}
+.view2{
+    color: #009999;
+    float:left;
+    margin:10px 150px 10px 150px;
+   
+}
+.view3{
+    color: #009999;
+    float:left;
+    margin:10px 150px 10px 150px;
+   
+}
+
+
+
+h3{
+    color: #404040;
+    margin-left: 240px;
+}
+
+.newpost button{
+    margin-left: 240px;
+}
+
+.area{
+    margin-left: 240px;
+}
+
+.allpost{
+    margin:
 }
